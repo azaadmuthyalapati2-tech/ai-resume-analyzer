@@ -1,0 +1,18 @@
+# Core ML & NLP libraries
+scikit-learn
+numpy
+pandas
+
+# NLP libraries
+nltk
+spacy
+
+# PDF parsing
+PyPDF2
+
+# Optional (recommended for model persistence & utilities)
+joblib
+
+
+python -m nltk.downloader punkt stopwords wordnet
+python -m spacy download en_core_web_sm
